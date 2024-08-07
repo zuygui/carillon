@@ -1,6 +1,6 @@
 const std = @import("std");
 
-const Token = union(enum) {
+pub const Token = union(enum) {
     identifier: []const u8,
     integer_literal: []const u8,
 
